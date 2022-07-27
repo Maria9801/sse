@@ -86,6 +86,21 @@ header{
 	margin-right: 90px;
 	margin-top: 60px;
 }
+.back{
+	display: flex;
+    padding-left: 55px;
+    padding-bottom: 50px;
+}
+.back img{
+	width: 25px;
+    padding-right: 20px;
+}
+.back a {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+}
+
 .type_l{
 	width: 700px;
 	display: flex;
@@ -156,9 +171,10 @@ td {
 /**************************************************/
 .cont{
 	margin-top: 200px;
-	margin-left: 200px;
-	margin-right: 90px;
+	margin-right: 500px;
 	margin-bottom: 117px;
+	display: flex;
+	justify-content: center;
 }
 .dok{
 	font-size: 20px;
@@ -168,25 +184,18 @@ td {
 }
 /**************************************************/
 .menu_bottom{
-	margin-top: 20px;
-	margin-bottom: 20px;
-	margin-left: 120px;
+	margin-top: 60px;
+	margin-bottom: 60px;
 	display: flex;
 	align-items: center;
-	justify-content: center;
-}
-.menu_bottom a{
-	margin-right: 220px;
-}
-hr{
-	width: 1600px;
-	margin-left: 100px;
-	display: flex;
-	justify-content: center;
+	justify-content: space-evenly;
 }
 /**************************************************/
+.footer{
+	padding-left: 110px;
+	background-color: #f5f5f55d;
+}
 .sotred{
-	margin-left: 100px;
 	margin-top: 80px;
 	margin-bottom: 40px;
 	display: flex;
@@ -201,5 +210,224 @@ hr{
 	margin-bottom: 20px;
 }
 .container p{
-	margin-left: 70px;
+	margin-left: -40px;
+}
+
+/**************************************************/
+.open_menu{
+	display:  flex;
+	display: none;
+	background: none;
+	border: none;
+}
+.header .menu_show{
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 50%;
+}
+.header .menu_show li {
+	margin: 2px;
+}
+/**************************************************/
+@media all and (max-width: 1800px){
+	.containerr{
+		width: 1500px;
+	}
+}
+/**************************************************/
+@media all and (max-width: 1500px){
+	.containerr {
+		width: 1200px;
+	}
+	.nav a {
+		width: 178px;
+	}
+	.nav li {
+		margin-right: 47px;
+	}
+	.nav .tel{
+		margin: 0;
+		width: 117px;
+	}
+	.ico{
+		width: 500px;
+	}
+	.footer{
+		padding-left: 14px;
+	}
+}
+/**************************************************/
+@media all and (max-width: 1200px){
+	.containerr {
+		width: 700px;
+	}
+	.logoo{
+		width: 124px;
+	}
+	.menu_bottom a{
+		font-size: 14px;
+	}
+	.menu_bottom .tel{
+		font-size: 14px;
+	}
+	.nav .tel{
+		margin-left: 30px;
+		width: 140px;
+	}
+	.nav li{
+		margin: 0;
+	}
+	.menu{
+		width: 522px;
+		justify-content: space-between;
+	}
+	.nav a{
+		width: 106px;
+	}
+	.footer{
+		padding-left: 100px;
+	}
+	.offer{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.ico {
+		width: 400px;
+	}
+	.ico img{
+		width: 40px;
+	}
+	.sotred {
+		margin-left: 8px;
+	}
+	.cont{
+		margin-right: 260px;
+	}
+	.container p {
+		margin-left: -18px;
+	}
+	.dok {
+		font-size: 14px;
+	}
+}
+/**************************************************/
+@media all and (max-width: 900px){
+	.containerr {
+		width: 500px;
+	}
+	.menu{
+		display: none;
+	}
+	.open_menu{
+		display: block;
+	}
+	.nav a{
+		width: 18px;
+	}
+	.nav{
+		justify-content: space-between;
+	}
+	.nav .tel{
+		width: 117px;
+		margin-left: 318px;
+	}
+	.header .menu_show{
+		width: 228px;
+		left: 27%;
+		background-color: #ceddec4a;
+		display: inline-flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.ico {
+		width: 426px;
+	}
+	td{
+		font-size: 12px;
+	}
+	.menu li a {
+		text-decoration: none;
+		font-size: 14px;
+	}
+	.menu_bottom a {
+		font-size: 10px;
+	}
+	.logoo {
+		width: 100px;
+	}
+	.menu_bottom .tel {
+		font-size: 10px;
+	}
+	.sotred {
+		margin-left: 67px;
+	}
+	.open_menu{
+		display: block;
+	}
+	.footer{
+		padding-left: 0;
+	}
+	.sot{
+		width: 33px;
+	}
+	.container p {
+		font-size: 12px;
+		margin-left: 34px;
+	}
+}
+/**************************************************/
+@media all and (max-width: 700px){
+	.container p {
+		font-size: 11px;
+		margin-left: 47px;
+	}
+	.dok {
+		font-size: 9px;
+	}
+	.containerr {
+		width: 500px;
+	}
+	.nav .tel {
+		width: 74px;
+		margin-left: 135px;
+	}
+	.tel {
+		font-size: 11px;
+	}
+	.logoo {
+		width: 100px;
+	}
+	.menu{
+		display: none;
+	}
+	.open_menu{
+		display: block;
+	}
+	.nav a{
+		width: 18px;
+	}
+	.nav{
+		width: 489px;
+		justify-content: space-between;
+	}
+	.nav .tel{
+		margin-left: 320px;
+	}
+	.header .menu_show{
+		width: 228px;
+		left: 27%;
+		background-color: #ceddec4a;
+		display: inline-flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.menu li a {
+		text-decoration: none;
+		font-size: 14px;
+	}
+	.logoo {
+		width: 100px;
+	}
 }
